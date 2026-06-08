@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Can You Dig It? Retro | Vintage Rock Baseball Tees</title>
+    <meta name="description" content="Authentic vintage-style baseball tees inspired by classic rock legends.">
+    
+    <!-- Vintage Typography -->
+    <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)">
+    <link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
+    <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700;900&family=Shrikhand&display=swap)" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Vintage Film Grain Overlay -->
+    <div class="grain-overlay"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">
+                <span class="logo-text">Can You Dig It? Retro</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#collection">Shop Tees</a></li>
+                <li><a href="#about">The Vibe</a></li>
+                <li><a href="#cart" class="cart-link">🛒 Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Heavy 70s Hero Section -->
+    <section id="home" class="hero sunset-background">
+        <div class="container hero-container">
+            <div class="hero-card">
+                <div class="starburst-badge">Stay<br>Groovy</div>
+                <h1 class="hero-title">Threads for the Classic Soul.</h1>
+                <p class="hero-subtitle">Premium 3/4 sleeve raglans inspired by the golden era of rock 'n' roll. Drop the needle, turn it up, and get comfortable.</p>
+                <a href="#collection" class="btn btn-primary">Dig Into The Collection</a>
+            </div>
+            <div class="hero-graphic">
+                <div class="record-player">🎵</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scrolling Marquee -->
+    <div class="marquee-stripe">
+        <div class="marquee-track">
+            <span>☮️ STEVE MILLER BAND ☮️ LED ZEPPELIN ☮️ THE DOORS ☮️ FLEETWOOD MAC ☮️ PINK FLOYD ☮️ JIMI HENDRIX ☮️</span>
+            <span>☮️ STEVE MILLER BAND ☮️ LED ZEPPELIN ☮️ THE DOORS ☮️ FLEETWOOD MAC ☮️ PINK FLOYD ☮️ JIMI HENDRIX ☮️</span>
+        </div>
+    </div>
+
+    <!-- Collection Section -->
+    <section id="collection" class="collection">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">The Tape Deck Series</h2>
+                <p class="section-subtitle">Real heavy shirts for real heavy riffs.</p>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <article class="product-card">
+                    <div class="product-image stripe-bg-yellow">
+                        <div class="tee-mockup">
+                            <span class="tee-art">🚀</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>The Space Cowboy</h3>
+                        <p class="band-ref">Inspired by Steve Miller Band</p>
+                        <p class="desc">Red & white baseball tee with a cosmic front graphic. Classic Americana.</p>
+                        <div class="product-meta">
+                            <span class="price">$32.00</span>
+                            <select class="size-select" aria-label="Size">
+                                <option value="S">S</option>
+                                <option value="M" selected>M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                        </div>
+                        <button class="btn btn-secondary btn-add-cart" data-product="The Space Cowboy" data-price="32.00">Add to Cart</button>
+                    </div>
+                </article>
+
+                <!-- Product 2 -->
+                <article class="product-card">
+                    <div class="product-image stripe-bg-blue">
+                        <div class="tee-mockup black-tee">
+                            <span class="tee-art">⚡</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Mothership Flight</h3>
+                        <p class="band-ref">Inspired by Led Zeppelin</p>
+                        <p class="desc">Faded black body, grey sleeves. For when you're rambling on.</p>
+                        <div class="product-meta">
+                            <span class="price">$34.00</span>
+                            <select class="size-select" aria-label="Size">
+                                <option value="S">S</option>
+                                <option value="M" selected>M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                        </div>
+                        <button class="btn btn-secondary btn-add-cart" data-product="Mothership Flight" data-price="34.00">Add to Cart</button>
+                    </div>
+                </article>
+
+                <!-- Product 3 -->
+                <article class="product-card">
+                    <div class="product-image stripe-bg-green">
+                        <div class="tee-mockup cream-tee">
+                            <span class="tee-art">🔮</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Dreams & Dust</h3>
+                        <p class="band-ref">Inspired by Fleetwood Mac</p>
+                        <p class="desc">A soft cream tee with mustard sleeves. Perfect for spreading rumours.</p>
+                        <div class="product-meta">
+                            <span class="price">$32.00</span>
+                            <select class="size-select" aria-label="Size">
+                                <option value="S">S</option>
+                                <option value="M" selected>M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                        </div>
+                        <button class="btn btn-secondary btn-add-cart" data-product="Dreams & Dust" data-price="32.00">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flashy 70s Section Break -->
+    <div class="wavy-divider"></div>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="vintage-polaroid">
+                    <div class="polaroid-inner">
+                        <div class="polaroid-photo">
+                            <span>🎫</span>
+                        </div>
+                        <div class="polaroid-caption">Front Row, 1974</div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">Born from the Crates</h2>
+                    <p>We missed the days when band tees actually had soul. <strong>Can You Dig It? Retro</strong> is our loud, distorted love letter to scratchy vinyls, ticket stubs in old jean jackets, and stadium rock.</p>
+                    <p>Every shirt is a classic raglan baseball tee, printed with distressed inks on garment-washed cotton. It feels like you fished it out of the back of your dad's closet.</p>
+                    <a href="#collection" class="btn btn-primary" style="margin-top:20px;">Snag yours now.</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Sidebar -->
+    <aside id="cartSidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h3 class="cart-title">Your Stash</h3>
+            <button class="cart-close" aria-label="Close cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cartItems"></div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <strong id="cartTotal">$0.00</strong>
+            </div>
+            <button class="btn btn-primary" id="checkoutBtn" style="width: 100%;">Checkout</button>
+        </div>
+    </aside>
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <!-- Bold Footer -->
+    <footer class="footer">
+        <div class="container footer-layout">
+            <div class="footer-brand">
+                <span class="logo-text">Can You Dig It? Retro</span>
+                <p>100% Groovy Baseball Tees. Keep Rock Alive.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Shipping</a>
+                <a href="#">Returns</a>
+                <a href="#">Drop Us A Line</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="toast" class="toast"></div>
+    <script src="script.js"></script>
+</body>
+</html>
