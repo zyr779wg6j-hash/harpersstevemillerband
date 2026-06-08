@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Can You Dig It? Retro | Custom Rock & Roll Baseball Tees</title>
+    <meta name="description" content="Handcrafted baseball tees inspired by classic rock legends. Steve Miller Band, Led Zeppelin, and more. Groovy threads for true music lovers.">
+    <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)">
+    <link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
+    <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Righteous&family=Poppins:wght@300;400;600&display=swap)" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating vinyl records background -->
+    <div class="vinyl-bg" aria-hidden="true">
+        <div class="vinyl vinyl-1">💿</div>
+        <div class="vinyl vinyl-2">💿</div>
+        <div class="vinyl vinyl-3">💿</div>
+    </div>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">
+                <span class="logo-icon">🎸</span>
+                <span class="logo-text">Can You Dig It? Retro</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#customize">Customize</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cart" class="cart-link">🛒 Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content container">
+            <h1 class="hero-title">
+                <span class="hero-line">Rock Your Style</span>
+                <span class="hero-line accent">One Tee at a Time</span>
+            </h1>
+            <p class="hero-subtitle">Handcrafted baseball tees inspired by the legends of classic rock. From the Steve Miller Band to Led Zeppelin — wear the music you love.</p>
+            <div class="hero-cta">
+                <a href="#collection" class="btn btn-primary">Shop the Collection</a>
+                <a href="#customize" class="btn btn-secondary">Design Your Own</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="tee-display">
+                <div class="tee-mockup">
+                    <div class="tee-body">
+                        <div class="tee-design">🎸</div>
+                    </div>
+                    <div class="tee-sleeve left"></div>
+                    <div class="tee-sleeve right"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Marquee -->
+    <div class="marquee">
+        <div class="marquee-content">
+            <span>★ LED ZEPPELIN ★ STEVE MILLER BAND ★ PINK FLOYD ★ THE DOORS ★ FLEETWOOD MAC ★ EAGLES ★ QUEEN ★ BLACK SABBATH ★ DEEP PURPLE ★ JIMI HENDRIX ★</span>
+            <span>★ LED ZEPPELIN ★ STEVE MILLER BAND ★ PINK FLOYD ★ THE DOORS ★ FLEETWOOD MAC ★ EAGLES ★ QUEEN ★ BLACK SABBATH ★ DEEP PURPLE ★ JIMI HENDRIX ★</span>
+        </div>
+    </div>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2 class="section-title">The Vibe</h2>
+                    <p>Born from a love of vinyl records, vintage concert posters, and the raw energy of classic rock, <strong>Can You Dig It? Retro</strong> brings the spirit of the '60s and '70s to your wardrobe.</p>
+                    <p>Every baseball tee we create is a tribute to the bands that shaped a generation. We're talking Steve Miller Band guitar solos, Led Zeppelin riffs that shake the walls, and that unmistakable feeling when the needle drops on your favorite record.</p>
+                    <p>Our tees aren't just shirts — they're conversation starters, concert companions, and wearable art for true music lovers.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <span class="feature-icon">🎨</span>
+                            <span>Hand-designed graphics</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">👕</span>
+                            <span>Premium soft cotton</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✨</span>
+                            <span>Retro-fit comfort</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="record-stack">
+                        <div class="record">🎵</div>
+                        <div class="record">🎶</div>
+                        <div class="record">🎵</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Collection Section -->
+    <section id="collection" class="collection">
+        <div class="container">
+            <h2 class="section-title center">The Collection</h2>
+            <p class="section-subtitle">Each design pays homage to the greatest era of rock and roll</p>
+            
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="zeppelin">Zeppelin Vibes</button>
+                <button class="filter-btn" data-filter="miller">Space Cowboy</button>
+                <button class="filter-btn" data-filter="psychedelic">Psychedelic</button>
+                <button class="filter-btn" data-filter="vintage">Vintage Tour</button>
+            </div>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <article class="product-card" data-category="zeppelin">
+                    <div class="product-image">
+                        <div class="tee-preview zeppelin-tee">
+                            <div class="tee-graphic">⚡</div>
+                        </div>
+                        <span class="product-badge">Bestseller</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Hammer of the Gods</h3>
+                        <p>Led Zeppelin-inspired thunder bolt design</p>
+                        <div class="product-meta">
+                            <span class="price">$34.99</span>
+                            <div class="color-options">
+                                <button class="color-dot" style="background: #1a1a2e" title="Black/White"></button>
+                                <button class="color-dot" style="background: #4a1c1c" title="Maroon/Black"></button>
+                            </div>
+                        </div>
+                        <button class="btn btn-add-cart" data-product="Hammer of the Gods" data-price="34.99">Add to Cart</button>
+                    </div>
+                </article>
+                <!-- Product 2 -->
+                <article class="product-card" data-category="miller">
+                    <div class="product-image">
+                        <div class="tee-preview miller-tee">
+                            <div class="tee-graphic">🚀</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Space Cowboy</h3>
+                        <p>Fly like an eagle with this cosmic design</p>
+                        <div class="product-meta">
+                            <span class="price">$32.99</span>
+                            <div class="color-options">
+                                <button class="color-dot" style="background: #0a0a23" title="Navy/White"></button>
+                                <button class="color-dot" style="background: #2d132c" title="Purple/Black"></button>
+                            </div>
+                        </div>
+                        <button class="btn btn-add-cart" data-product="Space Cowboy" data-price="32.99">Add to Cart</button>
+                    </div>
+                </article>
+                <!-- Product 3 -->
+                <article class="product-card" data-category="psychedelic">
+                    <div class="product-image">
+                        <div class="tee-preview psychedelic-tee">
+                            <div class="tee-graphic">🌀</div>
+                        </div>
+                        <span class="product-badge new">New</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Purple Haze</h3>
+                        <p>Trippy swirl pattern, Hendrix-inspired</p>
+                        <div class="product-meta">
+                            <span class="price">$36.99</span>
+                            <div class="color-options">
+                                <button class="color-dot" style="background: #4b0082" title="Purple/White"></button>
+                                <button class="color-dot" style="background: #1a1a1a" title="Black/Purple"></button>
+                            </div>
+                        </div>
+                        <button class="btn btn-add-cart" data-product="Purple Haze" data-price="36.99">Add to Cart</button>
+                    </div>
+                </article>
+                <!-- Product 4 -->
+                <article class="product-card" data-category="vintage">
+                    <div class="product-image">
+                        <div class="tee-preview vintage-tee">
+                            <div class="tee-graphic">🎤</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>The Joker</h3>
+                        <p>Some call it the gangster of love...</p>
+                        <div class="product-meta">
+                            <span class="price">$32.99</span>
+                            <div class="color-options">
+                                <button class="color-dot" style="background: #2c3e50" title="Charcoal/White"></button>
+                                <button class="color-dot" style="background: #1e3a1e" title="Forest/Cream"></button>
+                            </div>
+                        </div>
+                        <button class="btn btn-add-cart" data-product="The Joker" data-price="32.99">Add to Cart</button>
+                    </div>
+                </article>
+                <!-- Product 5 -->
+                <article class="product-card" data-category="zeppelin">
+                    <div class="product-image">
+                        <div class="tee-preview zeppelin-tee-2">
+                            <div class="tee-graphic">🪽</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Icarus Rising</h3>
+                        <p>Swan Song-inspired fallen angel design</p>
+                        <div class="product-meta">
+                            <span class="price">$34.99</span>
+                            <div class="color-options">
+                                <button class="color-dot" style="background: #1a1a1a" title="Black/Gold"></button>
+                                <button class="color-dot" style="background: #f5f5dc" title="Cream/Black"></button>
+                            </div>
+                        </div>
+                        <button class="btn btn-add-cart" data-product="Icarus Rising" data-price="34.99">Add to Cart</button>
+                    </div>
+                </article>
+                <!-- Product 6 -->
+                <article class="product-card" data-category="psychedelic">
+                    <div class="product-image">
+                        <div class="tee-preview floyd-tee">
+                            <div class="tee-graphic">🌈</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Dark Side Prism</h3>
+                        <p>Light spectrum refraction art</p>
+                        <div class="product-meta">
+                            <span class="price">$36.99</span>
+                            <div class="color-options">
+                                <button class="color-dot" style="background: #0d0d0d" title="Black/Rainbow"></button>
+                            </div>
+                        </div>
+                        <button class="btn btn-add-cart" data-product="Dark Side Prism" data-price="36.99">Add to Cart</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- Customize Section -->
+    <section id="customize" class="customize">
+        <div class="container">
+            <div class="customize-grid">
+                <div class="customize-preview">
+                    <div class="custom-tee-builder">
+                        <div class="custom-tee" id="customTeePreview">
+                            <div class="custom-tee-body" id="teeBody">
+                                <div class="custom-design" id="customDesign">
+                                    <span id="designIcon">🎸</span>
+                                    <span id="designText">YOUR TEXT</span>
+                                </div>
+                            </div>
+                            <div class="custom-sleeve left" id="sleeveLeft"></div>
+                            <div class="custom-sleeve right" id="sleeveRight"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="customize-controls">
+                    <h2 class="section-title">Design Your Own</h2>
+                    <p>Create a one-of-a-kind baseball tee that's totally you</p>
+                    
+                    <form id="customizeForm" class="customize-form">
+                        <div class="form-group">
+                            <label for="bodyColor">Body Color</label>
+                            <div class="color-picker">
+                                <button type="button" class="color-option active" data-color="#f5f5f5" data-sleeve="#1a1a1a" style="background: linear-gradient(135deg, #f5f5f5 50%, #1a1a1a 50%)"></button>
+                                <button type="button" class="color-option" data-color="#1a1a1a" data-sleeve="#f5f5f5" style="background: linear-gradient(135deg, #1a1a1a 50%, #f5f5f5 50%)"></button>
+                                <button type="button" class="color-option" data-color="#0a0a23" data-sleeve="#ffffff" style="background: linear-gradient(135deg, #0a0a23 50%, #ffffff 50%)"></button>
+                                <button type="button" class="color-option" data-color="#4a1c1c" data-sleeve="#1a1a1a" style="background: linear-gradient(135deg, #4a1c1c 50%, #1a1a1a 50%)"></button>
+                                <button type="button" class="color-option" data-color="#1e3a1e" data-sleeve="#f5f5dc" style="background: linear-gradient(135deg, #1e3a1e 50%, #f5f5dc 50%)"></button>
+                                <button type="button" class="color-option" data-color="#2d132c" data-sleeve="#e8d5b7" style="background: linear-gradient(135deg, #2d132c 50%, #e8d5b7 50%)"></button>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="designIcon">Choose Your Icon</label>
+                            <div class="icon-picker">
+                                <button type="button" class="icon-option active" data-icon="🎸">🎸</button>
+                                <button type="button" class="icon-option" data-icon="⚡">⚡</button>
+                                <button type="button" class="icon-option" data-icon="🎤">🎤</button>
+                                <button type="button" class="icon-option" data-icon="🎹">🎹</button>
+                                <button type="button" class="icon-option" data-icon="🥁">🥁</button>
+                                <button type="button" class="icon-option" data-icon="🎵">🎵</button>
+                                <button type="button" class="icon-option" data-icon="✌️">✌️</button>
+                                <button type="button" class="icon-option" data-icon="🌙">🌙</button>
+                                <button type="button" class="icon-option" data-icon="🔥">🔥</button>
+                                <button type="button" class="icon-option" data-icon="💀">💀</button>
+                                <button type="button" class="icon-option" data-icon="🦅">🦅</button>
+                                <button type="button" class="icon-option" data-icon="🚀">🚀</button>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="customText">Your Text (max 20 chars)</label>
+                            <input type="text" id="customText" maxlength="20" placeholder="ROCK ON" value="YOUR TEXT">
+                        </div>
+                        <div class="form-group">
+                            <label for="size">Size</label>
+                            <div class="size-picker">
+                                <button type="button" class="size-option" data-size="XS">XS</button>
+                                <button type="button" class="size-option" data-size="S">S</button>
+                                <button type="button" class="size-option active" data-size="M">M</button>
+                                <button type="button" class="size-option" data-size="L">L</button>
+                                <button type="button" class="size-option" data-size="XL">XL</button>
+                                <button type="button" class="size-option" data-size="2XL">2XL</button>
+                            </div>
+                        </div>
+                        <div class="custom-price">
+                            <span>Custom Tee Price:</span>
+                            <strong>$39.99</strong>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Add Custom Tee to Cart</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title center">What the Fans Say</h2>
+            <div class="testimonial-grid">
+                <blockquote class="testimonial">
+                    <p>"Finally found a place that gets it. Wore my Zeppelin tee to a reunion show and got compliments all night. Quality is unreal."</p>
+                    <footer>— Mike R., Austin TX</footer>
+                </blockquote>
+                <blockquote class="testimonial">
+                    <p>"The Steve Miller design is perfect. Soft fabric, great fit, and the retro vibe is spot on. Already ordered two more!"</p>
+                    <footer>— Sarah K., Portland OR</footer>
+                </blockquote>
+                <blockquote class="testimonial">
+                    <p>"Custom tee feature is amazing. Made one with my favorite Fleetwood Mac lyrics. Wear it every weekend."</p>
+                    <footer>— Dave M., Nashville TN</footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p>Questions about sizing? Custom order ideas? Just want to talk about your favorite deep cuts? We dig it all.</p>
+                    <div class="contact-details">
+                        <p><strong>📧 Email:</strong> hello@canyoudigitretro.com</p>
+                        <p><strong>📍 Based in:</strong> The groovy USA</p>
+                        <p><strong>⏰ Response time:</strong> Within 24 hours</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">📸</a>
+                        <a href="#" class="social-link" aria-label="TikTok">🎵</a>
+                        <a href="#" class="social-link" aria-label="Pinterest">📌</a>
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Cart Sidebar -->
+    <aside id="cartSidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="cart-close" aria-label="Close cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <p class="cart-empty">Your cart is empty. Time to rock!</p>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <strong id="cartTotal">$0.00</strong>
+            </div>
+            <button class="btn btn-primary btn-full" id="checkoutBtn">Checkout</button>
+        </div>
+    </aside>
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-icon">🎸</span>
+                    <span class="logo-text">Can You Dig It? Retro</span>
+                    <p>Keeping the spirit of classic rock alive, one tee at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#collection">All Tees</a></li>
+                        <li><a href="#customize">Custom Design</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Info</h4>
+                    <ul>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Join the Band</h4>
+                    <p>Get exclusive drops and 10% off your first order.</p>
+                    <form id="newsletterForm" class="newsletter-form">
+                        <input type="email" placeholder="your@email.com" required>
+                        <button type="submit" class="btn btn-primary">→</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Can You Dig It? Retro. All rights reserved. Keep on rockin'. ✌️</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+    <script src="script.js"></script>
+</body>
+</html>
